@@ -1,4 +1,4 @@
-import database from "../../../../infra/database";
+import database from "../../../../../infra/database";
 
 test("GET to /api/v1/status should return 200", async () => {
   console.log(database);
